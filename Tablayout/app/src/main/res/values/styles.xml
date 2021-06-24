@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //TextBorderView
+    <declare-styleable name="TextViewBorder">
+        <attr name="borderColor" format="color"/>
+        <attr name="borderRadius" format="integer"/>
+        <attr name="borderStrokeWidth" format="integer"/>
+    </declare-styleable>
+
+    //TabLayoutStyle
+    <style name="TablayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="background">@color/white</item>
+        <item name="tabIndicatorColor">#ff3333</item>
+        <item name="tabSelectedTextColor">#ff3333</item>
+    </style>
+
+    //TabLayoutTextStyle
+    <style name="TablayoutTextStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">#de000000</item>
+    </style>
+</resources>
